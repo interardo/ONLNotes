@@ -1,0 +1,88 @@
+/*!
+ * Start Bootstrap - Thumbnail Gallery HTML Template (http://startbootstrap.com)
+ * Code licensed under the Apache License v2.0.
+ * For details, see http://www.apache.org/licenses/LICENSE-2.0.
+ */
+
+body {
+    padding-top: 70px; /* Required padding for .navbar-fixed-top. Change if height of navigation changes. */
+}
+
+.thumb {
+    margin-bottom: 0px;
+	border-color:#FF6700;
+	text-align:center;
+	
+}
+
+footer {
+    margin: 50px 0;
+}
+
+.navbar-ownstyle{
+	background-color:#428BCA;
+	float:left;
+	height:70px;
+
+}
+
+.call-to-head {
+    padding: 5px 0;
+	margin-bottom:10px;
+}
+
+.orange {
+    background-color: #ff6700;
+}
+
+.bg-primary {
+    color: #fff;
+}
+
+/* class per wilayah */
+.thumbnail{ line-height: 50px; font-size:20px; font-weight:bold; color:white; }
+.kp{ background-color:#FF6700; color:white; }
+.wmd{ background-color:#00C0EF; color:white; }
+.wpd{ background-color:#CB4B4B; color:white; }
+.wpl{ background-color:#4DA74D; color:white; }
+.wbn{ background-color:#9440ED; color:white; }
+.wsm{ background-color:#BD9B33; color:white; }
+.wsy{ background-color:#8CACC6; color:white; }
+.wmk{ background-color:#A23C3C; color:white; }
+.wdr{ background-color:#3D853D; color:white; }
+.wbj{ background-color:#7633BD; color:white; }
+.wjs{ background-color:#428BCA; color:white; }
+.wmo{ background-color:#DE6C69; color:white; }
+.wjk{ background-color:#F35A5A; color:white; }
+.wjb{ background-color:#5CC85C; color:white; }
+.wjy{ background-color:#B14CFF; color:white; }
+.wpu{ background-color:#8E7426; color:white; }
+.kln{ background-color:#F39C12; color:white; }
+
+.small-box > a{
+	text-decoration: none; /* no underline */
+	color:white;
+}
+
+a{
+	text-decoration: none; /* no underline */
+}
+
+.welcome{
+	color:white;
+	margin-left:40px;
+	font-size:28px;
+	margin-top:-40px;
+}
+
+.table-pesan{
+	font-size:18px;
+}
+
+pre {
+ white-space: pre-wrap;       /* css-3 */
+ white-space: -moz-pre-wrap;  /* Mozilla, since 1999 */
+ white-space: -pre-wrap;      /* Opera 4-6 */
+ white-space: -o-pre-wrap;    /* Opera 7 */
+ word-wrap: break-word;       /* Internet Explorer 5.5+ */
+}

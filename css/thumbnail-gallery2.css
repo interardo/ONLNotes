@@ -1,0 +1,66 @@
+/*!
+ * Start Bootstrap - Thumbnail Gallery HTML Template (http://startbootstrap.com)
+ * Code licensed under the Apache License v2.0.
+ * For details, see http://www.apache.org/licenses/LICENSE-2.0.
+ */
+
+body {
+    padding-top: 50px; /* Required padding for .navbar-fixed-top. Change if height of navigation changes. */
+}
+
+.thumb {
+    margin-bottom: 0px;
+	border-color:#FF6700;
+	text-align:center;
+	
+}
+
+footer {
+    margin: 50px 0;
+}
+
+.navbar-ownstyle{
+	background-color:#428BCA;
+	float:left;
+}
+
+.call-to-head {
+    padding: 5px 0;
+	margin-bottom:10px;
+}
+
+.orange {
+    background-color: #ff6700;
+}
+
+.bg-primary {
+    color: #fff;
+}
+
+/* class per wilayah */
+.thumbnail{ line-height: 50px; font-size:20px; font-weight:bold; color:white; }
+.kp{ background-color:#FF6700; height:50px; color:white; }
+.wmd{ background-color:#AFD8F8; height:50px; color:white; }
+.wpd{ background-color:#CB4B4B; height:50px; color:white; }
+.wpl{ background-color:#4DA74D; height:50px; color:white; }
+.wbn{ background-color:#9440ED; height:50px; color:white; }
+.wsm{ background-color:#BD9B33; height:50px; color:white; }
+.wsy{ background-color:#8CACC6; height:50px; color:white; }
+.wmk{ background-color:#A23C3C; height:50px; color:white; }
+.wdr{ background-color:#3D853D; height:50px; color:white; }
+.wbj{ background-color:#7633BD; height:50px; color:white; }
+.wjs{ background-color:#428BCA; height:50px; color:white; }
+.wmo{ background-color:#DE6C69; height:50px; color:white; }
+.wjk{ background-color:#F35A5A; height:50px; color:white; }
+.wjb{ background-color:#5CC85C; height:50px; color:white; }
+.wjy{ background-color:#B14CFF; height:50px; color:white; }
+.wpu{ background-color:#8E7426; height:50px; color:white; }
+
+.welcome{
+	color:white;
+	margin-top:15px;
+}
+
+.table-pesan{
+	font-size:14px;
+}

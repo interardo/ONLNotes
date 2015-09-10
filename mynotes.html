@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+	
+	<head>
+		
+		<meta charset="utf-8">
+		<meta http-equiv="X-UA-Compatible" content="IE=edge">
+		<meta name="viewport" content="width=device-width, initial-scale=1">
+		<meta name="description" content="">
+		<meta name="author" content="">
+		
+		<title>E-Notes</title>
+		
+		<!-- Bootstrap Core CSS -->
+		
+		<link href="css/bootstrap.min.css" rel="stylesheet">
+		<link href="css/jasny-bootstrap.min.css" rel="stylesheet">
+		<!-- Custom CSS -->
+		<link href="css/thumbnail-gallery.css" rel="stylesheet">
+		<link href="css/AdminLTE.css" rel="stylesheet">
+		
+		
+	</head>
+	
+	<body onload="general(); mynotes();">
+		<nav id="myNavmenu" class="navmenu navmenu-default navmenu-fixed-left offcanvas" role="navigation">
+			<a class="navmenu-brand" href="#">E-Notes</a>
+			<ul class="nav navmenu-nav">
+				<li><a href="home.html" rel="external"><span class="glyphicon glyphicon-dashboard"></span> Dashboard</a></li>
+			</ul>
+			<ul class="nav navmenu-nav">
+				<li class="active"><a href="mynotes.html" rel="external"><span class="glyphicon glyphicon-book"></span> My Notes</a></li>
+			</ul>
+			<ul class="nav navmenu-nav">
+				<li><a href="pesan_masuk.html" rel="external"><span class="glyphicon glyphicon-envelope"></span> Notes Masuk <span id="countNotes"></span></a></li>
+			</ul>
+			<ul class="nav navmenu-nav">
+				<li><a href="timeline.html" rel="external"><span class="glyphicon glyphicon-globe"></span> Timeline <span id="countTimeline"></span></a></li>
+			</ul>
+			<ul class="nav navmenu-nav">
+				<li><a href="password.html" rel="external"><span class="glyphicon glyphicon-cog"></span> Ubah Password</a></li>
+			</ul>
+			<ul class="nav navmenu-nav">
+				<li><a onclick="logout()"><span class="glyphicon glyphicon-arrow-left"></span> Logout</a></li>
+			</ul>
+		</nav>
+		<div class="navbar navbar-default navbar-fixed-top navbar-ownstyle">
+			<div class="navbar-header" style="width:400px">
+				<button type="button" class="navbar-toggle nav navbar-left" data-toggle="offcanvas" data-target="#myNavmenu" data-canvas="body">
+					<span class="sr-only">Toggle navigation</span>
+					<span class="icon-bar"></span>
+					<span class="icon-bar"></span>
+					<span class="icon-bar"></span>
+					<div class="welcome">
+						<h3> <span class="glyphicon glyphicon-user"></span> <span id="getnama"></span></h3>
+					</div>
+				</button>
+				
+			</div>
+		</div>
+		<aside class="call-to-head bg-primary orange">
+			<div class="container">
+				
+			</div>
+		</aside>	
+		<!-- Page Content -->
+		<div class="container">
+			<center><h3 style="font-weight:bold"><span class="glyphicon glyphicon-book"></span> My Notes</h3></center><br>
+			<center><div id="wait" style="width:69px;height:89px;"><img src="image/loading.gif" width="64" height="64" /></div></center>
+			<div style="float:right;"><span class="glyphicon glyphicon-search"></span>Cari Notes : <input type="text" id="search" onkeyup="search_mynotes()" placeholder="Cari.." class="form-control"></div>
+			<br><br><br>
+			<div id="view"></div>
+			
+		</div>
+		<!-- /.container -->
+		
+		<!-- jQuery -->
+		<script src="cordova.js"></script>
+		<script src="js/jquery.js"></script>
+		
+		<script src="js/index.js"></script>
+		<script src="js/fungsi.js"></script>
+		<!-- Bootstrap Core JavaScript -->
+		
+		<script src="js/bootstrap.min.js"></script>
+		<script src="js/jasny-bootstrap.min.js"></script>
+	</body>
+	
+</html>
